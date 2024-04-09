@@ -1,0 +1,24 @@
+
+:root {
+    --primary-color: #d8bfd8;
+}
+
+
+body {
+    background-color: var(--primary-color);
+    color: #333;
+}
+
+header, footer {
+    background-color: var(--primary-color);
+}
+
+.btn-primary {
+    background-color: #ff69b4; 
+    border-color: #ff69b4; 
+}
+
+    .btn-primary:hover {
+        background-color: #d1478e; 
+        border-color: #d1478e; 
+    }
